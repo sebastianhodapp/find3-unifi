@@ -18,7 +18,7 @@ const processManager = require('@uphold/process-manager');
 const {
   SCAN_INTERVAL = 5000,
   FIND3_GROUP = "home",
-  FIND3_URL = "192.168.0.3",
+  FIND3_URL = "192.168.0.3:8005",
   UNIFI_ADDRESS = "192.168.0.1",
   UNIFI_PASSWORD = 'ubnt',
   UNIFI_PORT = 443,
