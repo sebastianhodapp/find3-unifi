@@ -8,7 +8,7 @@ const { Controller } = require('node-unifi');
 const { post } = require('axios');
 const { promisify } = require('util');
 const kebabCase = require('lodash.kebabcase');
-const log = require('debugnyan')('find3-unifi');
+const log = require('sebastianhodapp')('find3-unifi');
 const processManager = require('@uphold/process-manager');
 
 /**
