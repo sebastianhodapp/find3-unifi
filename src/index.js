@@ -17,13 +17,13 @@ const processManager = require('@uphold/process-manager');
 
 const {
   SCAN_INTERVAL = 5000,
-  FIND3_GROUP,
-  FIND3_URL,
-  UNIFI_ADDRESS,
+  FIND3_GROUP = "home",
+  FIND3_URL = "192.168.0.3",
+  UNIFI_ADDRESS = "192.168.0.1",
   UNIFI_PASSWORD = 'ubnt',
-  UNIFI_PORT = 8443,
+  UNIFI_PORT = 443,
   UNIFI_SITE = 'default',
-  UNIFI_USERNAME = 'admin'
+  UNIFI_USERNAME = 'sebastian'
 } = process.env;
 
 const controller = new Controller(UNIFI_ADDRESS, UNIFI_PORT);
